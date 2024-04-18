@@ -1,0 +1,28 @@
+print("hello world")
+
+title = 'rephactor python'
+print('Last character:', title[-1])
+print('Fifth character from the end:', title[-5])
+print('Eighth character from the end:', title[-8])
+print(len(title))
+print('Pyhton' * 7)
+# fname = 'Kyle'
+# lname = "Swett"
+# name_3 = f name * 3
+#print(name_3 + lname)
+
+magician = "Harry Houdini"
+if magician == 'Harry Houdini':
+    print("World's greatest magician!")
+
+fullname = "Kyle Swett"
+fname = fullname[:4]
+lname = fullname[5:]
+print(fname + ' ' + lname)
+
+nums = [0,3,8,5,4]
+temp=nums[2]
+nums[2] = nums[4]
+nums[4] = temp
+
+print(nums)
